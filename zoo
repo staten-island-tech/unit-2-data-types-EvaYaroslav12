@@ -1,0 +1,22 @@
+def discount (age, isMember, isResident):
+    if age < 12:
+        age  = True
+        print ('ok')
+    elif age >= 65:
+        age = True
+        print ('ok')
+    elif isMember == 'yes':
+        isMember = True
+        print ('ok')
+    elif isResident == 'yes':
+        Resident = True
+        print ('ok')
+    
+
+
+
+
+x = input  ('What is your age? ')
+y = input ('are you a member? ')
+z = input ('are you a resident? ')
+k = discount(int(x), y, z)
