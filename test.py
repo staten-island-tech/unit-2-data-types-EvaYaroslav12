@@ -10,5 +10,3 @@ elif temp <= -50:
     print('Just a lil cold')
 else:
     print('cold')
-
-print(IsEven(88))
