@@ -1,4 +1,3 @@
-
 imp = input("What's the weather? ")
 temp = int(imp)
 if temp >= 100:
@@ -11,3 +10,5 @@ elif temp <= -50:
     print('Just a lil cold')
 else:
     print('cold')
+
+print(IsEven(88))
