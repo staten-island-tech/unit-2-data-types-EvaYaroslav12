@@ -10,4 +10,4 @@ def discount (age, isMember, isResident):
 x = input  ('What is your age? ')
 y = input ('are you a member? ')
 z = input ('are you a resident? ')
-k = discount(int(x), y, z)
+discount(int(x), y, z)
