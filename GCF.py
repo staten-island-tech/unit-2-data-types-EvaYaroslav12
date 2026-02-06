@@ -1,23 +1,18 @@
+def gcf(x, y):   
+    if x <= 0 or y <= 0:
+        print ('Invalid Input')
+        return -1
 
-x = input('insert a number: ')
-z= int(x)
+    for i in range(x):
+        z = x - i
+        if x % z == 0  and y % z == 0 :
+            return z
 
-if z <= 0:
-    print ('Invalid Input')
 
-for i in range(z):
-    y = i+1
-    if z % y == 0:
-        print(y)
+c = -1
+while (c < 0 ):
+    a = input('Insert a number: ')
+    b = input('Insert a number: ')
+    c = gcf(int(a), int(b))
 
-A = input('insert a number: ')
-B = int(A)
-
-if B <= 0:
-    print ('Invalid Input')
-
-for i in range(B):
-    c = i+1
-    if B % c == 0:
-        print(c)
-        
+print(c)
