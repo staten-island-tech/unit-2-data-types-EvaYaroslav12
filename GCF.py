@@ -20,4 +20,4 @@ for i in range(B):
     c = i+1
     if B % c == 0:
         print(c)
-
+        
